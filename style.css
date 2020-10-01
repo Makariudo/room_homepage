@@ -1,0 +1,11 @@
+/* definition de variables de couleurs */
+:root {
+  --dark_gray : hsl(0, 0%, 63%);
+  --very_dark_gray: hsl(0, 0%, 27%);
+}
+
+html, body {
+  font-family: 'Spartan', sans-serif;
+  font-size: 12px;
+}
+
