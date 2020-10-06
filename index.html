@@ -13,26 +13,32 @@
 <body>
   <main class="container">
     <section class="top">
+    <article class="main_photo">
      <nav class="nav_bar">
-        <img class="logo" src="images/logo.svg">
+        <img class="nav_bar_logo" src="images/logo.svg">
         <ul>
-          <li>Home</li>
-          <li>Shop</li>
-          <li>About</li>
-          <li>Contact</li>
+          <li><a class="cool-link">Home</a></li>
+          <li><a class="cool-link">Shop</a></li>
+          <li><a class="cool-link">About</a></li>
+          <li><a class="cool-link">Contact</a></li>
         </ul>
     </nav>
+  </article>
+    
     <article id="main_article">
       <h1 id="main_title"> Discover innovative ways to decorate</h1>
       <p id="main_paragraphe">We provide unmatched quality, comfort, and style for property owners across the country. 
-  Our experts combine form andnfunction in bringing your vision to life. Create a room in your 
+  Our experts combine form and function in bringing your vision to life. Create a room in your 
   own style with our collection and make your property a reflection of you and what you love.</p>
-      <div class="shopNow">Shop now <img src="/images/icon-arrow.svg"></div>
-      <div id="navigation"><img src="/images/icon-angle-left.svg"><img src="/images/icon-angle-right.svg"></div>
+      <div class="shopNow"><p>Shop now </p><img class="arrow" src="images/icon-arrow.svg"></div>
+      <div id="navigation">
+        <a id="navigation_left"><img class="navigation_angle_left" src="images/icon-angle-left.svg"></a>
+        <a id="navigation_right"><img src="images/icon-angle-right.svg" class="navigation_angle_right"></a>
+      </div>
     </article>
   </section>
   <section class="bottom">
-    <img src="images/image-about-dark.jpg">
+    <img class="bottom_left_img" src="images/image-about-dark.jpg">
     <article id="bottom_center">
       <h2 id="bottom_title">About our furniture</h2>
       <p class="bottom_p">Our multifunctional collection blends design and function to suit your individual taste.
@@ -41,6 +47,7 @@
     or anything in between. Product specialists are available to help you create your dream space.</p>
     
     </article>
+    <img class="bottom_right_img" src="images/image-about-dark.jpg">
   </section> 
 
   

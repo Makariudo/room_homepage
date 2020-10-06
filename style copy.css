@@ -1,0 +1,163 @@
+/* definition de variables de couleurs */
+:root {
+  --dark_gray : hsl(0, 0%, 63%);
+  --very_dark_gray: hsl(0, 0%, 27%);
+}
+
+html, body {
+  font-family: 'Spartan', sans-serif;
+  font-size: 12px;
+}
+
+.container {
+  width: 1440px;
+  margin: 0 auto;
+  display : flex;
+  flex-direction: column;
+  background-color: pink;
+}
+
+.top {
+  width: 100%;
+  height: 60vh;
+  display: flex;
+  flex-direction: row;
+  position: relative;
+}
+
+.bottom {
+  width: 100%;
+  height: 40%;
+
+  display: flex;
+  flex-direction: row;
+}
+
+.main_photo {
+  width: 60%;
+  background-image: url(./images/desktop-image-hero-1.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.nav_bar {
+  display: flex;
+  flex-direction: row;
+  margin: 4rem 0  0 5rem;
+
+}
+
+.nav_bar_logo {
+  width: 10%;
+  height: 3%;
+  vertical-align: middle;
+  
+}
+
+ul {
+  display: flex;
+/*   align-items: flex-end;
+ */  list-style-type: none;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 0px;
+    color: white;
+  margin-left: 0.5rem;
+
+}
+
+li {
+  display: block;
+  margin-left: 3rem;
+}
+
+a:hover{
+  cursor: pointer;
+}
+
+
+.cool-link {
+  display: inline-block;
+  color: white;
+  text-decoration: none;
+}
+
+.cool-link::after {
+  content: '';
+  display: block;
+  transform: scaleX(0);
+  height: 2px;
+  background: white;
+  transition: transform .5s ease-in-out;
+}
+
+.cool-link:hover::after {
+  cursor: pointer;
+  transform: scaleX(0.6);
+  
+}
+
+
+
+
+
+
+
+
+
+
+#main_article {
+  width: 40%;
+  max-height: 100%;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  position: relative;
+}
+
+#main_title {
+  font-size: 3.5rem;
+  display: block;
+  margin: 7rem 5rem 3rem 5rem;
+}
+
+#main_paragraphe {
+  display: block;
+
+  margin: 0 5rem 2rem 5rem;
+  color: var(--dark_gray);
+  line-height: 1.5rem;
+  font-size: 1.1rem;
+}
+
+.shopNow {
+  margin-top: 3rem;
+  margin-left: 5rem;
+ 
+  display: flex;
+  flex-direction: row;
+}
+
+.shopNow p {
+  display: block;
+  text-transform: uppercase;
+  color: var(--dark_gray);
+  letter-spacing: 1.5rem;
+}
+
+.arrow {
+  width: 8%;
+  height: 20%;
+}
+
+#navigation {
+  background-color: var(--very_dark_gray);
+}
+
+
+.attribution {
+  display: none;
+}
