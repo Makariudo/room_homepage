@@ -35,10 +35,22 @@ column-gap: 0;
 
 .main_photo {
   grid-column: 1 / 2;
-  background-image: url(./images/desktop-image-hero-1.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  
+}
+
+.slide1{
+  background-image: url(./images/desktop-image-hero-1.jpg);
+}
+
+.slide2 {
+  background-image: url(./images/desktop-image-hero-2.jpg);
+
+}
+
+.slide3 {
+  background-image: url(./images/desktop-image-hero-3.jpg);
+
 }
 
 .nav_bar {
